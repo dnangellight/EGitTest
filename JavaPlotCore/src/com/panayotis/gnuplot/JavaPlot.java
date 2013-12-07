@@ -157,6 +157,9 @@ public class JavaPlot extends GNUPlot {
 			set("key", position.name().replace('_', ' ').toLowerCase());
 	}
 
+	
+
+	
 	/**
 	 * 
 	 * @param points

@@ -162,6 +162,15 @@ public class GNUPlot {
         }
     }
 
+    
+	/**
+	 * Set higher sample value to get smoother graph
+	 * @param value
+	 */
+	public void setSample(int value) {
+		set("sample",String.valueOf(value));
+	}
+	
     /**
      * Set various GNUPlot parameters. All parameters added here will be used
      * in the form of "set key value"
