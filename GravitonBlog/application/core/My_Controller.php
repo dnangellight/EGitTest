@@ -1,0 +1,12 @@
+<?php
+class My_Controller extends CI_Controller {
+	
+	
+	public $data = array();
+	public function __construct(){
+		
+		parent:: __construct();
+		
+		
+	}
+}
